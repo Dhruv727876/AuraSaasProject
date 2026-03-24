@@ -16,7 +16,7 @@ const TINTS = [
 
 export function ThemeTintToggle() {
   const [isOpen, setIsOpen] = useState(false);
-  const [activeHue, setActiveHue] = useState(243);
+  const [activeHue, setActiveHue] = useState(38);
   const { isBlueprint, toggleBlueprint } = useBlueprint();
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -27,8 +27,8 @@ export function ThemeTintToggle() {
       setActiveHue(hue);
       document.documentElement.style.setProperty("--primary-hue", hue.toString());
     } else {
-      // Ensure Aura Prime is explicitly set as default if no preference exists
-      document.documentElement.style.setProperty("--primary-hue", "243");
+      // Ensure Vellum Gold is explicitly set as default if no preference exists
+      document.documentElement.style.setProperty("--primary-hue", "38");
     }
 
     const handleClickOutside = (event: MouseEvent) => {

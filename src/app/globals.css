@@ -44,7 +44,7 @@ html, body, * {
     --background: #f8fafc;
     --foreground: #020617;
     
-    --primary-hue: 243;
+    --primary-hue: 38;
     --primary: hsl(var(--primary-hue) 75% 59%);
     --secondary: hsl(var(--primary-hue) 84% 67%);
     
