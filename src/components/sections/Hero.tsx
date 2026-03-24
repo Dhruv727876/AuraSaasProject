@@ -42,12 +42,12 @@ export function Hero() {
         </motion.div>
 
         {/* SEO-focused H1 with Split-Text Animation */}
-        <h1 className="text-3xl xs:text-4xl sm:text-6xl md:text-8xl lg:text-[10rem] font-black tracking-tighter leading-[0.85] mb-10 text-foreground text-center">
-          <span className="sr-only">Draft the Aura of Scale</span>
-          <span aria-hidden="true" className="block">
-            <TextReveal text="Draft the" className="block" delay={0.2} /> 
-            <TextReveal text="Aura of" className="block italic" delay={0.4} /> 
-            <TextReveal text="Scale" className="block" delay={0.6} />
+        <h1 className="text-5xl sm:text-6xl md:text-8xl lg:text-[8rem] font-black tracking-tighter leading-[0.9] mb-8 text-foreground text-center">
+          <span className="sr-only">The Ultimate NextJS SaaS Template</span>
+          <span aria-hidden="true" className="flex flex-col items-center justify-center">
+            <TextReveal text="Ship Your Next" className="block" delay={0.2} /> 
+            <TextReveal text="SaaS Product" className="block italic text-primary" delay={0.4} /> 
+            <TextReveal text="In Minutes." className="block" delay={0.6} />
           </span>
         </h1>
 
@@ -55,9 +55,9 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 1, ease: [0.16, 1, 0.3, 1] }}
-          className="text-lg md:text-xl text-muted-foreground/80 max-w-2xl mx-auto mb-12 font-medium leading-relaxed px-4"
+          className="text-lg md:text-xl text-muted-foreground/80 max-w-2xl mx-auto mb-12 font-medium leading-relaxed px-4 text-balance"
         >
-          An elite architectural SaaS engine for drafting high-density, low-latency global infrastructure. Designed for precision, engineered for fluidity.
+          A masterfully crafted, high-performance architectural foundation for your next digital platform. Beautifully engineered, completely customizable, and ready to scale.
         </motion.p>
 
         <motion.div
