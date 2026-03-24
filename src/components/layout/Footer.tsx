@@ -64,8 +64,8 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-12 border-t border-border/5 flex items-center justify-center text-center">
-          <div className="text-[9px] font-black uppercase tracking-widest text-muted-foreground/40 flex flex-wrap items-center justify-center gap-4">
+        <div className="pt-12 border-t border-border/5">
+          <div className="flex flex-col md:flex-row items-center justify-center text-center gap-2 md:gap-4 text-[9px] font-black uppercase tracking-widest text-muted-foreground/40">
             <span>© {currentYear} Designed and Developed by Dhruv</span>
             <span className="opacity-20 hidden md:inline">|</span>
             <span className="hover:text-primary transition-colors cursor-help">Powered by HRILAX</span>

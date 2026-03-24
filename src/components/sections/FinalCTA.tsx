@@ -109,14 +109,21 @@ export function FinalCTA() {
             <div className="flex flex-col sm:flex-row gap-4 md:gap-8 items-center justify-center w-full sm:w-auto">
               <Magnetic strength={isTouch ? 0 : 0.4}>
                 <WaitlistTrigger>
-                  <Button size="lg" className="rounded-full w-full sm:w-auto px-10 md:px-16 py-7 md:py-9 text-lg md:text-xl font-black bg-primary text-primary-foreground transition-all duration-700 uppercase tracking-tighter shadow-[0_10px_50px_rgba(var(--primary),0.3)]">
+                  <Button 
+                    size="lg" 
+                    className="rounded-full w-full sm:w-auto px-10 md:px-16 py-7 md:py-9 text-lg md:text-xl font-black bg-primary text-primary-foreground transition-all duration-500 uppercase tracking-tighter shadow-[0_10px_50px_rgba(var(--primary),0.3)] active:scale-95 touch-none"
+                  >
                     Join Waitlist <ArrowRight className="ml-4 w-5 h-5 md:w-6 md:h-6" />
                   </Button>
                 </WaitlistTrigger>
               </Magnetic>
               
               <Magnetic strength={isTouch ? 0 : 0.2}>
-                <Button variant="outline" size="lg" className="rounded-full w-full sm:w-auto px-10 md:px-16 py-7 md:py-9 text-lg md:text-xl font-black text-white/50 border-white/5 hover:bg-white/5 transition-all duration-700 uppercase tracking-tighter backdrop-blur-md">
+                <Button 
+                  variant="ghost" 
+                  size="lg" 
+                  className="rounded-full w-full sm:w-auto px-10 md:px-16 py-7 md:py-9 text-lg md:text-xl font-black text-white/50 border border-white/5 transition-all duration-500 uppercase tracking-tighter backdrop-blur-md hover:bg-white/5 hover:text-white active:bg-white/10 active:scale-95 touch-none"
+                >
                   View Docs
                 </Button>
               </Magnetic>
