@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import { ArrowUpRight, PlayCircle } from "lucide-react";
+import dashboardMockup from "../../../../public/dashboard_mockup.png";
 import { TextReveal } from "../ui/TextReveal";
 import { useWaitlist, WaitlistTrigger } from "@/components/providers/WaitlistProvider";
 import { AuraBackground } from "../ui/AuraBackground";
@@ -97,7 +98,7 @@ export function Hero() {
         >
           <div className="relative aspect-[16/10] w-full rounded-[2.5rem] overflow-hidden border border-border shadow-[0_40px_100px_-20px_rgba(0,0,0,0.2)] bg-zinc-900 group">
             <Image
-              src={`${process.env.NODE_ENV === "production" ? "/AuraSaasProject" : ""}/dashboard_mockup.png`}
+              src={dashboardMockup}
               alt="Aura Architectural Analytics Dashboard"
               fill
               priority
