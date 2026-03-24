@@ -7,46 +7,53 @@ import { Badge } from "@/components/ui/badge";
 import { Magnetic } from "../ui/Magnetic";
 import { ArrowUpRight } from "lucide-react";
 
+import infraImg from "../../../../public/gallery/infra.png";
+import uiFixedImg from "../../../../public/gallery/ui-fixed.png";
+import monolithImg from "../../../../public/gallery/monolith.png";
+import blueprintImg from "../../../../public/gallery/blueprint.png";
+import atriumImg from "../../../../public/gallery/atrium.png";
+import coreImg from "../../../../public/gallery/core.png";
+
 const items = [
   {
     title: "Project Alpha: Atrium",
     category: "Infrastructure",
-    image: "/gallery/infra.png",
+    image: infraImg,
     details: ["Global Node Mesh", "99.9% Uptime", "Pro-Active Rendering"],
     className: "md:col-span-1"
   },
   {
     title: "Aura v4.0 UI",
     category: "Visual Identity",
-    image: "/gallery/ui-fixed.png",
+    image: uiFixedImg,
     details: ["Fluid Interaction", "Stanza Motion", "Dynamic Docking"],
     className: "md:col-span-1"
   },
   {
     title: "The Monolith",
     category: "Storage Architecture",
-    image: "/gallery/monolith.png",
+    image: monolithImg,
     details: ["Cold S3 Tiers", "Immutable Nodes", "Global Deduplication"],
     className: "md:col-span-1"
   },
   {
     title: "Blueprint Engine",
     category: "Core Systems",
-    image: "/gallery/blueprint.png",
+    image: blueprintImg,
     details: ["Low-Level Rust Engine", "Multi-Phase Commit", "Real-Time Sync"],
     className: "md:col-span-1"
   },
   {
     title: "Atrium Studio",
     category: "Workspaces",
-    image: "/gallery/atrium.png",
+    image: atriumImg,
     details: ["Collaborative Vellum", "Voice Integrations", "Shared Design Layers"],
     className: "md:col-span-1"
   },
   {
     title: "Core Node Sync",
     category: "Edge Computing",
-    image: "/gallery/core.png",
+    image: coreImg,
     details: ["15ms Latency", "512-Bit Encryption", "Direct peering"],
     className: "md:col-span-1"
   }

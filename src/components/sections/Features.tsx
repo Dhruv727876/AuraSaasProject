@@ -8,34 +8,39 @@ import Image from "next/image";
 import { TextReveal } from "../ui/TextReveal";
 import { Magnetic } from "../ui/Magnetic";
 
+import speedImg from "../../../../public/features_v4/speed.png";
+import meshImg from "../../../../public/features_v4/mesh.png";
+import studioImg from "../../../../public/features_v4/studio.png";
+import integrityImg from "../../../../public/features_v4/integrity.png";
+
 const items = [
   {
     id: "01",
     title: "Rapid Deployment",
     description: "Launch global nodes in sub-second intervals. Zero-buffer architecture for high-velocity teams.",
     icon: Zap,
-    image: "/features_v4/speed.png",
+    image: speedImg,
   },
   {
     id: "02",
     title: "Mesh Networking",
     description: "A liquid structural layer that adapts to load in real-time. Global distribution, local latency.",
     icon: Layout,
-    image: "/features_v4/mesh.png",
+    image: meshImg,
   },
   {
     id: "03",
     title: "Collaborative Studio",
     description: "Shared mono-repo environments with synchronized architectural views. Parallel drafting.",
     icon: Users,
-    image: "/features_v4/studio.png",
+    image: studioImg,
   },
   {
     id: "04",
     title: "Core Integrity",
     description: "Multi-layered security protocols ensuring structural soundess at every node with encryption.",
     icon: Shield,
-    image: "/features_v4/integrity.png",
+    image: integrityImg,
   }
 ];
 
