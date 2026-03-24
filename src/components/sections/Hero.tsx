@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import { ArrowUpRight, PlayCircle } from "lucide-react";
-import dashboardMockup from "../../../../public/dashboard_mockup.png";
+import dashboardMockup from "../../../public/dashboard_mockup.png";
 import { TextReveal } from "../ui/TextReveal";
 import { useWaitlist, WaitlistTrigger } from "@/components/providers/WaitlistProvider";
 import { AuraBackground } from "../ui/AuraBackground";
