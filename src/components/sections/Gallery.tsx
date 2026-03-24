@@ -7,12 +7,12 @@ import { Badge } from "@/components/ui/badge";
 import { Magnetic } from "../ui/Magnetic";
 import { ArrowUpRight } from "lucide-react";
 
-import infraImg from "../../../../public/gallery/infra.png";
-import uiFixedImg from "../../../../public/gallery/ui-fixed.png";
-import monolithImg from "../../../../public/gallery/monolith.png";
-import blueprintImg from "../../../../public/gallery/blueprint.png";
-import atriumImg from "../../../../public/gallery/atrium.png";
-import coreImg from "../../../../public/gallery/core.png";
+import infraImg from "../../../public/gallery/infra.png";
+import uiFixedImg from "../../../public/gallery/ui-fixed.png";
+import monolithImg from "../../../public/gallery/monolith.png";
+import blueprintImg from "../../../public/gallery/blueprint.png";
+import atriumImg from "../../../public/gallery/atrium.png";
+import coreImg from "../../../public/gallery/core.png";
 
 const items = [
   {

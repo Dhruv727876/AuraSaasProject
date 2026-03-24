@@ -8,10 +8,10 @@ import Image from "next/image";
 import { TextReveal } from "../ui/TextReveal";
 import { Magnetic } from "../ui/Magnetic";
 
-import speedImg from "../../../../public/features_v4/speed.png";
-import meshImg from "../../../../public/features_v4/mesh.png";
-import studioImg from "../../../../public/features_v4/studio.png";
-import integrityImg from "../../../../public/features_v4/integrity.png";
+import speedImg from "../../../public/features_v4/speed.png";
+import meshImg from "../../../public/features_v4/mesh.png";
+import studioImg from "../../../public/features_v4/studio.png";
+import integrityImg from "../../../public/features_v4/integrity.png";
 
 const items = [
   {
